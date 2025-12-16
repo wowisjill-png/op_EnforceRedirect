@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enforce Redirect - 域名重新導向管理</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Enforce Redirect - 域名重新導向管理</h1>
+            <button id="refreshBtn" class="refresh-btn">refresh</button>
+        </header>
+
+        <main>
+            <div class="table-container">
+                <table id="enforceTable">
+                    <thead>
+                        <tr>
+                            <th>DOMAINE</th>
+                            <th>ALLOW SITE</th>
+                            <th>ALLOW ACCESS</th>
+                            <th>REDIRECT URL</th>
+                            <th>UPDATE</th>
+                            <th>UPDATOR</th>
+                            <th>UPDATE DATE</th>
+                        </tr>
+                    </thead>
+                    <tbody id="enforceTableBody">
+                        <!-- 動態產生的資料將會在這裡顯示 -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

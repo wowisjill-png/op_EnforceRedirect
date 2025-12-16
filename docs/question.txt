@@ -1,0 +1,22 @@
+- 建立一個新的 AAA 專案，並將 HTML、CSS 和 JS 檔案分開存放。
+- 存檔時，請桌面檔案一起同步。
+
+- 響應式設計：在不同螢幕尺寸下都能正常顯示
+
+1.頁面標題：Enforce Redirect
+2.我需要有一個refresh 按鈕：可以重新載入最新內容
+3.表格欄位:
+DOMAINE：顯示域名資訊
+ALLOW SITE：顯示允許的站點資訊
+ALLOW ACCESS：Allow/NotAllow 按鈕，點擊即可切換並立即儲存
+REDIRECT URL：可編輯的輸入欄位
+UPDATE：更新按鈕，更新REDIRECT URL輸入值，會驗證 URL 是否存在, update成功顯示Update successful, 失敗顯示 Update failed
+UPDATOR：更新者資訊
+UPDATE DATE：日/月/年 時:分:秒 格式
+
+互動功能：
+點擊 Allow/NotAllow 按鈕會立即切換狀態並更新時間
+修改 REDIRECT URL 後點擊 Update 按鈕會驗證 URL
+成功顯示 "Update successful"，失敗顯示 "Update failed"
+資料會自動儲存到瀏覽器的 localStorage
+
